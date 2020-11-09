@@ -1,0 +1,169 @@
+/* reset CSS default paddings and margins */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+    font-family: "Microsoft Yahei";
+}
+
+html {
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color:#3b3b3b;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+div.board{
+    height:1335px;
+    width:1250px;
+    position: relative;
+    background-color: white;
+    margin:0px auto;
+    border:1px solid;
+}
+
+div.title{
+    height:150px;
+    width:1250px;
+    background-color:white;
+    border-bottom:1px solid;
+    border-bottom-color: darkgray;
+}
+
+div.left-margin{
+    height:1150px;
+    width:140px;
+    position: relative;
+    background-color:white;
+    float:left;
+    padding-right: 15px;
+}
+
+div.right-margin{
+    background-color: white;
+    height:1150px;
+    width:200px;
+    float:right;
+    font-family: Arial;
+}
+
+div.main-content{
+    background-color:white;
+    margin-left: 10px;
+    height:1150px;
+    width:1095px;
+    font-family: Arial;
+}
+
+div.main-page-button{
+    height:70px;
+    width:140px;
+    padding-left: 8px;
+    padding-top:50px;
+    position:relative;
+    text-align: center;
+}
+
+div.vertical-line{
+    width:5px;
+    height:1150px;
+    float:left;
+    border-right:1px solid;
+    border-right-color: darkgray;
+}
+
+div.footnote{
+    height:35px;
+    width: 1250px;
+    background-color: white;
+    border-top:1px solid;
+    border-top-color: gray;
+    text-align: center;
+}
+
+ul.menu{
+    list-style-type: Square;
+    text-align:left;
+    position:relative;
+    float:left;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+ul.main-links{
+    padding-left:220px;
+    font-size: 19px;
+    list-style-type: square;
+}
+
+ul.content-items-links{
+    padding-left: 195px;
+    padding-top: 5px;
+    font-size: 18px;
+    list-style-type: circle;
+}
+
+li.menu{
+    margin-top: 18px;
+    float:left；
+}
+
+li.main-links{
+    margin-top:8px;
+    margin-left:5px;
+    padding-left:5px;
+}
+
+h1.main-section{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left:10px;
+    text-align:left;
+}
+h1.title{
+    padding-top:45px;
+    font-size: 50px;
+    text-align:center;
+}
+
+h2.sub-section{
+    padding-top: 18px;
+    margin-bottom: 10px;
+}
+
+a.title:link, a.title:hover, a.title:visited, a.title:active{
+    text-decoration: none;
+    color:black;
+}
+
+a:link, a:active{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(32, 8, 119);
+}
+
+a:hover{
+    text-decoration: underline;
+    color:black;
+}
+
+p.email{
+    position:relative;
+    top:285px;
+    left:5px;
+    line-height: 1.5;
+}
+
+p.content{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
