@@ -1,0 +1,2 @@
+Steps: 1000 , number of paths: 50000000, Rt sectors: 2000 
+Call price: 1.051974 , put price: 1.810203
