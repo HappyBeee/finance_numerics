@@ -1,20 +1,8 @@
 /* reset CSS default paddings and margins */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,th,td { 
     margin:0;
     padding:0;
     font-family: "Microsoft Yahei";
-}
-
-html {
-    margin:0;
-    padding:0;
-}
-
-header{
-    background-color:#3b3b3b;
-    color:white;
-    text-align:center;
-    padding:5px;
 }
 
 div.board{
@@ -36,40 +24,42 @@ div.title{
 
 div.left-margin{
     height:1150px;
-    width:140px;
+    width:200px;
     position: relative;
     background-color:white;
     float:left;
     padding-right: 15px;
 }
 
-div.right-margin{
-    background-color: white;
-    height:1150px;
-    width:200px;
-    float:right;
-    font-family: Arial;
-}
-
 div.main-content{
     background-color:white;
-    margin-left: 10px;
+    margin-left: 20px;
     height:1150px;
-    width:1095px;
+    width:1195px;
     font-family: Arial;
 }
 
 div.main-page-button{
-    height:70px;
+    height:45px;
     width:140px;
-    padding-left: 8px;
-    padding-top:50px;
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-top:45px;
     position:relative;
     text-align: center;
 }
 
+div.menu-block{
+    height:350px;
+    width:190px;
+    padding-left: 10px;
+    padding-right: 0px;
+    position:relative;
+}
+
 div.vertical-line{
     width:5px;
+    margin-right: 30px;
     height:1150px;
     float:left;
     border-right:1px solid;
@@ -102,7 +92,7 @@ ul.main-links{
 }
 
 ul.content-items-links{
-    padding-left: 195px;
+    padding-left: 270px;
     padding-top: 5px;
     font-size: 18px;
     list-style-type: circle;
@@ -125,9 +115,10 @@ h1.main-section{
     padding-left:10px;
     text-align:left;
 }
+
 h1.title{
     padding-top:45px;
-    font-size: 50px;
+    font-size: 40px;
     text-align:center;
 }
 
@@ -143,11 +134,11 @@ a.title:link, a.title:hover, a.title:visited, a.title:active{
 
 a:link, a:active{
     text-decoration: none;
-    color:black;
+    color:blue;
 }
 a:visited{
     text-decoration: none;
-    color:rgb(32, 8, 119);
+    color:red;
 }
 
 a:hover{
